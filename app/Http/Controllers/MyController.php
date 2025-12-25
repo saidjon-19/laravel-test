@@ -11,7 +11,12 @@ class MyController extends Controller
      */
     public function index()
     {
-        //
+        dd([
+           'key'=>'value',
+           'key2'=>'value2'
+           'key'=>'value',
+        'key3'=>'value',
+        ]);
     }
 
     /**
