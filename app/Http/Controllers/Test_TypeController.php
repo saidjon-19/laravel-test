@@ -10,6 +10,7 @@ class Test_TypeController extends Controller
     public function index()
     {
         $test_types = TestType::all();
+        dd($test_types);
         return view('test_types.index', compact('test_types'));
     }
     public function create()
